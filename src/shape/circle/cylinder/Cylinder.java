@@ -19,7 +19,7 @@ public class Cylinder extends Circle {
     }
 
     public double countVolume(){
-        return countSquare() * getHeight();
+        return countSquare() * height;
     }
 
 
