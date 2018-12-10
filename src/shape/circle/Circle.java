@@ -19,8 +19,9 @@ public class Circle extends Shape {
     }
 
     public double countSquare(){
-         return 3.14 * getRadius() * getRadius();
+         return 3.14 * radius * radius;
     }
+
 
 
 }

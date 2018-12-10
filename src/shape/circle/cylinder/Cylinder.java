@@ -19,8 +19,9 @@ public class Cylinder extends Circle {
     }
 
     public double countVolume(){
-        return (3.14 * getRadius() * getRadius()) * getHeight();
+        return countSquare() * getHeight();
     }
+
 
 
 }

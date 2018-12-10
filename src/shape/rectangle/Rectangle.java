@@ -29,8 +29,9 @@ public class Rectangle extends Shape {
     }
 
     public double countSquare(){
-        return getLength() * getWidth();
+        return length * width;
     }
+
 
 
 }

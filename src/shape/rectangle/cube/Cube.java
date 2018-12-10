@@ -19,7 +19,7 @@ public class Cube extends Rectangle {
     }
 
     public double countVolume(){
-        return getLength() * getWidth() * getHeight();
+        return countSquare() * getHeight();
     }
 
 
